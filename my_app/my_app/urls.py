@@ -22,4 +22,5 @@ urlpatterns = [
     path('api/', include('api_coba.urls')),
     path('api/v2/', include('api_test.urls')),
     path('api/v3/', include('api_dense.urls')),
+    path('', include('query_td.urls')),
 ]
